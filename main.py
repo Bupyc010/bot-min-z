@@ -4,7 +4,7 @@ from db import Database, create_db
 
 
 logger.add("info.log", format="{time} {level} {message}", level="INFO", rotation="10 MB", compression="gz")
-bot_token = '6316220039:AAEqroAH17TQkcxW94RexzsOLLEgtJ47az4'
+bot_token = 'none'
 bot = Bot(token=bot_token)
 dp = Dispatcher(bot)
 db = Database('users.sql')
